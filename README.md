@@ -8,7 +8,7 @@ An interactive Excel dashboard built to explore coffee sales performance across 
 
 ## What It Answers
 
-- What is the total revenue, and how does it change when slicing by roast type, bag size, or loyalty status?
+- What is the total sales, and how does it change when slicing by roast type, bag size, or loyalty status?
 - Which coffee type and month are driving the most sales?
 - How many distinct customers are behind a given filter — not just how many orders?
 - Which countries and customers contribute the most revenue?
@@ -19,7 +19,7 @@ An interactive Excel dashboard built to explore coffee sales performance across 
 - **5 interactive filters** — Roast Type, Size, Loyalty Card, Coffee Type, and Order Date timeline.
 - **Distinct customer counting** — the Total Customers KPI uses a distinct count, so repeat customers are not double-counted when filters change.
 - **Sales trend analysis** — explore how sales change over time for individual or multiple coffee types.
-- **Sales by Country** — compare revenue contribution across countries.
+- **Sales by Country** — compare sales contribution across countries.
 - **Top 5 Customers** — identify customers with the highest sales contribution.
 
 ![Filtered Dashboard](./Filtered_Screenshot.jpg)
