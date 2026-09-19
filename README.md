@@ -1,4 +1,4 @@
-# Coffee Sales Dashboard (Excel)
+# Coffee Sales Dashboard (Excel) 
 
 An interactive Excel dashboard built to explore coffee sales performance across roast type, coffee type, bag size, loyalty status, country, customers, and time.
 
