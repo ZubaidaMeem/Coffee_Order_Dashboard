@@ -13,6 +13,15 @@ An interactive Excel dashboard built to explore coffee sales performance across 
 - How many distinct customers are behind a given filter — not just how many orders?
 - Which countries and customers contribute the most revenue?
 
+## Data Source
+
+The raw dataset (`coffeeOrdersRawData.xlsx`) is a multi-sheet workbook with three related tables:
+- **orders** — 1,000 order records (order details, dates, product/customer IDs, loyalty card status)
+- **customers** — 1,000 customer records (customer ID, country, and related attributes)
+- **products** — 48 products, broken out by coffee type, roast type, and bag size, with unit price, price per 100g, and profit
+
+The orders and customers tables are joined on customer ID, and orders/products on product ID, to support the roast type, coffee type, bag size, country, and customer-level analysis in the dashboard.
+
 ## Key Features
 
 - **4 live KPI cards** — Total Sales, Most Popular Coffee, Top Month, and Total Customers — that update together based on active filters.
